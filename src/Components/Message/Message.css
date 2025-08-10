@@ -46,4 +46,21 @@
 .message-time{
     background-color: #f5f5f5;
     color: black;
+@media (max-width: 600px) {
+    .message {
+        font-size: 14px;
+        padding: 6px 4px;
+        margin: 6px 2px;
+        word-break: break-word;
+        max-width: 95vw;
+    }
+    .message-content {
+        font-size: 14px;
+        padding: 6px 4px;
+    }
+    .message-time {
+        font-size: 10px;
+        margin-left: 4px;
+    }
+}
 }

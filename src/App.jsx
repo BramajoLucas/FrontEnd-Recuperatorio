@@ -13,11 +13,11 @@ const App = () => {
 				<Routes>
 					   <Route path='/' element={<>
 						   <ContactScreen />
-						   <div className="whatsapp-main whatsapp-main-empty">
-							   <div className="whatsapp-empty-chat-message">
-								   Seleccioná un chat para comenzar a chatear
-							   </div>
+						<div className="whatsapp-main whatsapp-main-empty hide-on-mobile">
+						   <div className="whatsapp-empty-chat-message">
+							   Seleccioná un chat para comenzar a chatear
 						   </div>
+						</div>
 					   </>} />
 					   <Route path='/contact/:contact_id/messages' element={<ChatScreen />} />
 				</Routes>

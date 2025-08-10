@@ -1,3 +1,8 @@
+@media (max-width: 600px) {
+	.hide-on-mobile {
+		display: none !important;
+	}
+}
 /* Mensaje centrado cuando no hay chat seleccionado */
 .whatsapp-main-empty {
 	flex: 1;
@@ -222,4 +227,45 @@ background: #f0f2f5;
 ::-webkit-scrollbar-thumb {
 background: #ddd;
 border-radius: 4px;
+}
+@media (max-width: 600px) {
+	body, html {
+		width: 100vw;
+		height: 100vh;
+		overflow-x: hidden;
+	}
+	.whatsapp-container, .whatsapp-app, #root {
+		flex-direction: column !important;
+		width: 100vw !important;
+		height: 100vh !important;
+		padding: 0 !important;
+		border-radius: 0 !important;
+		box-shadow: none !important;
+	}
+	.sidebar {
+		width: 100vw !important;
+		min-width: unset !important;
+		border-right: none !important;
+		border-bottom: 1px solid #ddd !important;
+		height: 60px !important;
+		flex-direction: row !important;
+	}
+	.chat {
+		width: 100vw !important;
+		height: calc(100vh - 60px) !important;
+		min-width: unset !important;
+	}
+	.message {
+		max-width: 90vw !important;
+		font-size: 14px !important;
+		padding: 6px 4px !important;
+	}
+	.message-content {
+		font-size: 14px !important;
+		padding: 6px 4px !important;
+	}
+	.message-time {
+		font-size: 10px !important;
+		margin-left: 4px !important;
+	}
 }
