@@ -1,0 +1,101 @@
+.chat-header-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chat-header-last-connection {
+    font-size: 13px;
+    color: #888;
+    margin-top: 2px;
+    font-weight: 400;
+}
+/* Header del chat */
+.whatsapp-main-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    height: 60px;
+    background: #f0f2f5;
+    border-bottom: 1px solid #ddd;
+    padding: 0 24px;
+}
+
+.chat-header-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+}
+
+.chat-header-name {
+    font-weight: 600;
+    font-size: 18px;
+    color: #222;
+}
+
+/* Botón de flecha para volver */
+.back-arrow-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 4px;
+    color: #222;
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 20%;
+    transition: background 0.2s;
+}
+.back-arrow-btn:hover {
+    background: #ece5dd;
+}
+.back-arrow-icon {
+    font-size: 24px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+
+/* Botón borrar todos los mensajes */
+.delete-all-btn {
+    margin-left: 8px;
+}
+/* Botón de flecha para volver */
+.back-arrow-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-right: 4px;
+    color: #222;
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+.back-arrow-btn:hover {
+    background: #ece5dd;
+}
+.back-arrow-icon {
+    font-size: 24px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+.messages-title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.chat-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
